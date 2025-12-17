@@ -10,6 +10,7 @@ The codebase has been updated to support local builds using XeLaTeX.
    ```bash
    latexmk -C
 2. Build the resume PDF using XeLaTeX:
+   ```bash
    xelatex resume.tex
 
 3. (Optional) To generate the PDF with a custom output file name, skip Step 2 and run:
