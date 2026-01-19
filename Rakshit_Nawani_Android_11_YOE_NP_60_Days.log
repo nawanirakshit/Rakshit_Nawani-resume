@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.8)  17 DEC 2025 10:54
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.8)  19 JAN 2026 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1059,8 +1059,8 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 72.
 
-No file Rakshit_Nawani_Resume.aux.
-\openout1 = `Rakshit_Nawani_Resume.aux'.
+(./Rakshit_Nawani_Android_11_YOE_NP_60_Days.aux)
+\openout1 = `Rakshit_Nawani_Android_11_YOE_NP_60_Days.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
@@ -1082,6 +1082,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1168,12 +1169,13 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `Rakshit_Nawani_Resume.bcf'.
+\openout4 = `Rakshit_Nawani_Android_11_YOE_NP_60_Days.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Rakshit_Nawani_Resume.bbl' not found.
+Package biblatex Info: ... file 'Rakshit_Nawani_Android_11_YOE_NP_60_Days.bbl' 
+not found.
 
-No file Rakshit_Nawani_Resume.bbl.
+No file Rakshit_Nawani_Android_11_YOE_NP_60_Days.bbl.
 Package biblatex Info: Reference section=0 on input line 72.
 Package biblatex Info: Reference segment=0 on input line 72.
 \headertextwidth=\skip111
@@ -1196,6 +1198,8 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 7.6pt on input line 77.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 7.6pt on input line 77.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 7.6pt on input line 77.
 LaTeX Font Info:    Font shape `TU/Roboto(1)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 77.
 LaTeX Font Info:    Font shape `TU/Roboto(1)/m/it' will be
@@ -1214,31 +1218,28 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 10.
-) (./cv/education.tex
+) (./cv/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 23.
+(Font)              scaled to size 10.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 23.
+(Font)              scaled to size 10.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 23.
+t line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 23.
+(Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 23.
+(Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 23.
+(Font)              scaled to size 8.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 23.
+t line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 23.
-) (./cv/experience.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 26.
-)
+(Font)              scaled to size 8.0pt on input line 25.
+) (./cv/education.tex)
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 92.
@@ -1246,13 +1247,16 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 8.0pt on input line 92.
 [1
 
-] (./cv/projects.tex) (./cv/skills.tex
-Underfull \hbox (badness 10000) in paragraph at lines 79--4
+] (./cv/projects.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
+(Font)              scaled to size 9.0pt on input line 22.
+) (./cv/skills.tex
+Underfull \hbox (badness 10000) in paragraph at lines 82--4
 
  []
 
 
-Overfull \hbox (26.5079pt too wide) in alignment at lines 10--26
+Overfull \hbox (69.43791pt too wide) in alignment at lines 10--29
 [] [] 
  []
 
@@ -1260,31 +1264,23 @@ Overfull \hbox (26.5079pt too wide) in alignment at lines 10--26
 
 [2
 
-] (./Rakshit_Nawani_Resume.aux)
+] (./Rakshit_Nawani_Android_11_YOE_NP_60_Days.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Rakshit_Nawani_Resume
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'Rakshit_Nawani_Resume.run.xml'.
-\openout1 = `Rakshit_Nawani_Resume.run.xml'.
+Package logreq Info: Writing requests to 'Rakshit_Nawani_Android_11_YOE_NP_60_D
+ays.run.xml'.
+\openout1 = `Rakshit_Nawani_Android_11_YOE_NP_60_Days.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40262 strings out of 473832
- 821382 string characters out of 5729482
- 1816641 words of memory out of 5000000
- 62697 multiletter control sequences out of 15000+600000
+ 40266 strings out of 473832
+ 821765 string characters out of 5729482
+ 1813737 words of memory out of 5000000
+ 62699 multiletter control sequences out of 15000+600000
  561681 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  131i,11n,135p,564b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Rakshit_Nawani_Resume.pdf (2 pages).
+Output written on Rakshit_Nawani_Android_11_YOE_NP_60_Days.pdf (2 pages).
