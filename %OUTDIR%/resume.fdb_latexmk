@@ -1,6 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1768818683.59494 "/Users/rakshit.nawani/Documents/Docs Self/Rakshit/Rakshit_Nawani resume/resume.tex" "resume.pdf" "resume" 1768818683.82732 2
-  "/Users/rakshit.nawani/Documents/Docs Self/Rakshit/Rakshit_Nawani resume/resume.tex" 1768818682.90814 3500 96ba1a0cf8c2d8948de79695df939c09 ""
+["pdflatex"] 1771917394.45412 "/Users/rakshit.nawani/Documents/Docs Self/Rakshit/Rakshit_Nawani resume/resume.tex" "resume.pdf" "resume" 1771917394.67949 2
+  "%OUTDIR%/resume.aux" 1771917394.45362 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "/Users/rakshit.nawani/Documents/Docs Self/Rakshit/Rakshit_Nawani resume/resume.tex" 1771917393.71607 3508 ab39ca63dfb6e5dc638b48b7c9d08891 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty" 1734129479 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
@@ -31,11 +32,10 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1757310385 3345729 783f953fcddd706f389af9a53d4e73fe ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "resume.aux" 1768818683.59435 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "resume.tex" 1768818682.90814 3500 96ba1a0cf8c2d8948de79695df939c09 ""
+  "resume.tex" 1771917393.71607 3508 ab39ca63dfb6e5dc638b48b7c9d08891 ""
   "russell.cls" 1768810699.3149 32704 104ba101a7e6e753e7815050b58c656b ""
   (generated)
-  "resume.aux"
-  "resume.log"
+  "%OUTDIR%/resume.aux"
+  "%OUTDIR%/resume.log"
   "resume.pdf"
   (rewritten before read)

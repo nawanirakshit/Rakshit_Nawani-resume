@@ -3,7 +3,7 @@ INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT /Users/rakshit.nawani/Documents/Docs Self/Rakshit/Rakshit_Nawani resume/resume.tex
-OUTPUT resume.log
+OUTPUT %OUTDIR%/resume.log
 INPUT ./russell.cls
 INPUT russell.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
