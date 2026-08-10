@@ -14,5 +14,12 @@
 # latexmk default output directory
 %OUTDIR%/
 
-# Generated resume/cover letter PDFs (rebuild with xelatex; see readme.md)
+# Build output (PDFs + byproducts land here — see readme.md)
+# Keep the folder structure in git via .gitkeep, ignore everything else inside
+build/resume/*
+build/coverletter/*
+!build/resume/.gitkeep
+!build/coverletter/.gitkeep
+
+# Any stray root-level generated PDFs (legacy builds)
 /*.pdf
