@@ -1,0 +1,66 @@
+% !TEX root = ./coverletter.tex
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{russell}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% russell Colors: russell-emerald, russell-skyblue, russell-red, russell-pink, russell-orange
+%                 russell-nephritis, russell-concrete, russell-darknight, russell-purple
+\colorlet{russell}{russell-black}
+
+% Set false if you don't want to highlight section with russell color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Keep in sync with resume.tex
+%-------------------------------------------------------------------------------
+\name{Rakshit}{Nawani}
+\position{\normalfont Sr. Software Engineer{\enskip\cdotp\enskip}Mobile}
+\address{New Delhi, INDIA}
+
+\mobile{+91-9548613480}
+\email{nawanirakshit@gmail.com}
+\homepage{nawanirakshit.vercel.app}
+\github{nawanirakshit}
+\linkedin{rakshit-nawani-9aa02898/}
+\stackoverflow{4665938}{rakshit-nawani}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+%	COVER LETTER CONTENT
+%	Recipient info, opening/closing, and body are set in cv/coverletter.tex
+%-------------------------------------------------------------------------------
+\input{cv/coverletter.tex}
+
+\makelettertitle
+
+\input{cv/coverletter_body.tex}
+
+\makeletterclosing
+
+%-------------------------------------------------------------------------------
+\end{document}
