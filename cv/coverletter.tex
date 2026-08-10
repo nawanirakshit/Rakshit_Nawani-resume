@@ -1,9 +1,13 @@
 %-------------------------------------------------------------------------------
 %	RECIPIENT / LETTER METADATA
-%	Update these for each application
+%	Update ONLY these two lines for each application -- \CompanyName and
+%	\PositionTitle are reused throughout coverletter.tex and coverletter_body.tex
 %-------------------------------------------------------------------------------
-\recipient{Hiring Manager}{Crunchyroll}
-\lettertitle{Application for Senior Software Engineer - Android, Partner Engineering}
+\newcommand{\CompanyName}{Crunchyroll}
+\newcommand{\PositionTitle}{Senior Software Engineer - Android, Partner Engineering}
+
+\recipient{Hiring Manager}{\CompanyName}
+\lettertitle{Application for \PositionTitle}
 \letterdate{\today}
 
 \letteropening{Dear Hiring Manager,}
