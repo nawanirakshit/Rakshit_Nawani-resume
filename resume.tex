@@ -8,9 +8,6 @@
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
-% Specify the location of the included fonts
-\fontdir[fonts/]
-
 % Color for highlights
 % russell Colors: russell-emerald, russell-skyblue, russell-red, russell-pink, russell-orange
 %                 russell-nephritis, russell-concrete, russell-darknight, russell-purple
@@ -32,41 +29,8 @@
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
 
-%-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
-%-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{./examples/profile}
-\name{Rakshit}{Nawani}
-\position{\normalfont Sr. Software Engineer{\enskip\cdotp\enskip}Mobile}
-\address{New Delhi, INDIA}
+\input{cv/personal.tex}
 
-\mobile{+91-9548613480}
-\email{nawanirakshit@gmail.com}
-%\dateofbirth{January 1st, 1970}
-\homepage{nawanirakshit.vercel.app}
-\github{nawanirakshit}
-\linkedin{rakshit-nawani-9aa02898/}
-% \gitlab{gitlab-id}
-\stackoverflow{4665938}{rakshit-nawani}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
-% \kaggle{kaggle-id}
-% \googlescholar{googlescholar-id}{name-to-display}
-%% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
-% \extrainfo{extra information}
-
-% \quote{``Simplicity is deceptively complicated."}
-
-
-%-------------------------------------------------------------------------------
- %	BIBLIOGRAPHY
- %-------------------------------------------------------------------------------
-\addbibresource{cv/references.bib}
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -78,7 +42,7 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
+  {}
   {}
   {\thepage}
 

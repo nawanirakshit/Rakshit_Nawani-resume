@@ -12,20 +12,16 @@ The codebase has been updated to support local builds using XeLaTeX. All build o
 ├── coverletter.tex           # Cover letter build entrypoint (same header/footer as resume.tex)
 ├── russell.cls                # LaTeX class powering both documents (styles, commands)
 ├── cv/
+│   ├── personal.tex          # Shared header info (name, contact, links) for both documents
 │   ├── summary.tex           # Resume section content
 │   ├── experience.tex
 │   ├── education.tex
 │   ├── projects.tex
 │   ├── skills.tex
 │   ├── languages.tex
-│   ├── achievements.tex
-│   ├── publications.tex
-│   ├── interests.tex
-│   ├── references.bib        # Bibliography source (if publications are cited)
 │   ├── coverletter.tex       # Cover letter metadata: recipient, subject, opening/closing
 │   └── coverletter_body.tex  # Cover letter body text
-├── font/                     # Fonts used by russell.cls
-├── resume.bbl                 # Compiled bibliography (tracked so builds don't require biber)
+├── font/                     # Bundled Roboto/FontAwesome (unused: fonts come from the TeX roboto package)
 └── build/                     # Git-ignored build output (PDFs + LaTeX byproducts)
     ├── resume/
     └── coverletter/
@@ -77,5 +73,5 @@ Both `resume.tex` and `coverletter.tex` write their PDFs and all LaTeX byproduct
 
 ## Notes
 
-- Both `resume.tex` and `coverletter.tex` share the same personal info block (name, contact, social links). If you update one, update the other to keep them in sync.
-- `resume.bbl` is intentionally tracked (not ignored) since it lets the resume build with `xelatex` alone, without needing to run `biber` first.
+- Both `resume.tex` and `coverletter.tex` load the personal info block (name, contact, social links) from [cv/personal.tex](cv/personal.tex), so edit it in one place.
+- For each application, update only `\CompanyName` and `\PositionTitle` in [cv/coverletter.tex](cv/coverletter.tex); the letter body is generic.
